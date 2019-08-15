@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+}
+
+header {
+    background-color: #4aaaa5;
+    color: aliceblue;
+    padding: 20px;
+    margin: 20px 10px 10px 20px; 
+    float: left; 
+    width: 33%;
+}
+#left { 
+    float: left; 
+    background-color:#666; 
+    color: white;
+    width: 20%;  
+    margin: 20px 10px 10px 50px; 
+  }
+  
+  #middle { 
+    float: left; 
+    background-color: #888;
+    color: white;
+    width: 20%;
+    margin: 20px 10px 10px 20px; 
+  }
+  
+  #right { 
+    float: left; 
+    background-color: #666;
+    color: white;
+    width: 20%;
+    margin: 20px 10px 10px 20px; 
+  }
+#picture {
+    margin: 20px 10px 10px 20px;
+    height: 200px;
+    width: 150px;
+}
+#Paragraph { 
+    background-color: #4aaaa5;
+    color: aliceblue;
+}
