@@ -1,46 +1,53 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    background-color: white;
 }
 
 header {
     background-color: #4aaaa5;
-    color: aliceblue;
+    color: #777777;
     padding: 20px;
     margin: 20px 10px 10px 20px; 
     float: left; 
     width: 33%;
+    border: 10px;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
 #left { 
-    float: left; 
-    background-color:#666; 
-    color: white;
-    width: 20%;  
-    margin: 20px 10px 10px 50px; 
+    float: right; 
+    background-color:#cccccc; 
+    color:#777777;
+    width: 23% 100px;  
+    margin: 20px 0px 10px 0px; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
   }
   
   #middle { 
-    float: left; 
-    background-color: #888;
-    color: white;
-    width: 20%;
-    margin: 20px 10px 10px 20px; 
+    float: right; 
+    background-color: #cccccc;
+    color: #777777;
+    width: 23% 100px;
+    margin: 20px 0px 10px 0px; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
   }
   
   #right { 
-    float: left; 
-    background-color: #666;
-    color: white;
-    width: 20%;
-    margin: 20px 10px 10px 20px; 
+    float: right; 
+    background-color: #cccccc;
+    color: #777777;
+    width: 23% 100px;
+    margin: 20px 0px 10px 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
   }
+
 #picture {
     margin: 20px 10px 10px 20px;
     height: 200px;
     width: 150px;
 }
+
 #Paragraph { 
-    background-color: #4aaaa5;
-    color: aliceblue;
+    color: #777777;
 }
