@@ -4,18 +4,66 @@
 }
 
 header {
-    background-color: #4aaaa5;
+    background-color: #ffffff;
     color: #777777;
     padding: 20px;
-    margin: 20px 10px 10px 20px; 
+    margin: 0 auto;
     float: left; 
-    width: 33%;
-    border: 10px;
+    width: 100%;
     border-color: #cccccc;
+    border-bottom-style: solid;
+    border-width: 2px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#left { 
+body {
+    background-image: url(https://cdn.inspirationhut.net/wp-content/uploads/2013/05/201.png)
+}
+.container {
+    background-color: #cccccc;
+    margin: 0 auto;
+    clear: both;
+    width: 960px;
+}
+
+#box {
+background-color: #ffffff;
+border-color: #dddddd;
+border-style: solid;
+border-width: 2px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    float: left;
+    padding: 10px;
+}
+
+nav {
+float: right;
+}
+
+#picture {
+    margin: 20px 10px 10px 20px;
+    height: 200px;
+    width: 150px;
+}
+
+h2 {
+    border-bottom-color: #777777;
+    border-bottom-width: 2px;
+}
+
+#Paragraph { 
+    color: #777777;
+}
+
+#copyright {
+    background-color: #666666;
+    border-top-color: #4aaaa5;
+}
+
+/* #left { 
     float: right; 
     background-color:#cccccc; 
     color:#777777;
@@ -40,14 +88,4 @@ header {
     width: 23% 100px;
     margin: 20px 0px 10px 0px;
     font-family: 'Georgia', Times, Times New Roman, serif; 
-  }
-
-#picture {
-    margin: 20px 10px 10px 20px;
-    height: 200px;
-    width: 150px;
-}
-
-#Paragraph { 
-    color: #777777;
-}
+  } */
